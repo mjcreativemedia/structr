@@ -1,0 +1,30 @@
+{
+  "bundle_id": "test-product-1",
+  "timestamp": "2024-07-07T16:55:00Z",
+  "score": 92,
+  "status": "excellent",
+  "missing_fields": [],
+  "flagged_issues": [
+    "Consider adding more product images",
+    "Review schema could include more detailed ratings"
+  ],
+  "schema_errors": [],
+  "metadata_issues": [],
+  "recommendations": [
+    "Add more high-resolution product images",
+    "Include more customer reviews for better trust signals",
+    "Consider adding video content"
+  ],
+  "validation_details": {
+    "title_present": true,
+    "meta_description_present": true,
+    "schema_present": true,
+    "images_present": true,
+    "structured_data_valid": true
+  },
+  "performance_metrics": {
+    "generation_time": 12.5,
+    "validation_time": 2.1,
+    "total_processing_time": 14.6
+  }
+}

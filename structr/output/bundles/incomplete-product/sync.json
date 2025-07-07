@@ -1,0 +1,19 @@
+{
+  "input": {
+    "handle": "incomplete-product",
+    "title": "Incomplete Product Title That Is Way Too Long And Will Definitely Fail The SEO Title Length Check",
+    "description": "Short",
+    "price": 9.99,
+    "brand": "Poor Brand",
+    "metafields": {
+      "rating": 2.1,
+      "review_count": 2
+    }
+  },
+  "output": {
+    "bundle_path": "output/bundles/incomplete-product",
+    "generation_time": 0.0018346309661865234,
+    "model_used": "mistral",
+    "timestamp": "2025-07-06T22:35:10.150626"
+  }
+}

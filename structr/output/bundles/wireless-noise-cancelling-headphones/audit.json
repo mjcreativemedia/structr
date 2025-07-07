@@ -1,0 +1,24 @@
+{
+  "product_id": "wireless-noise-cancelling-headphones",
+  "score": 36.36,
+  "missing_fields": [
+    "meta_description",
+    "og:title",
+    "og:description",
+    "og:image",
+    "json_ld_schema"
+  ],
+  "flagged_issues": [
+    "Title too short (< 30 chars)"
+  ],
+  "schema_errors": [
+    "Missing JSON-LD schema markup"
+  ],
+  "metadata_issues": [
+    "Missing meta description",
+    "Missing og:title",
+    "Missing og:description",
+    "Missing og:image"
+  ],
+  "timestamp": "2025-07-06 22:35:15.305268"
+}

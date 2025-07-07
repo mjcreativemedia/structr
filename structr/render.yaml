@@ -1,0 +1,39 @@
+# Render Deployment Configuration
+services:
+  - type: web
+    name: structr-dashboard
+    runtime: docker
+    plan: starter
+    region: oregon
+    branch: main
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: PYTHONPATH
+        value: /app
+      - key: STREAMLIT_SERVER_PORT
+        value: 8501
+      - key: STREAMLIT_SERVER_ADDRESS
+        value: 0.0.0.0
+      - key: STREAMLIT_SERVER_HEADLESS
+        value: true
+      - key: STREAMLIT_BROWSER_GATHER_USAGE_STATS
+        value: false
+      - key: STRUCTR_ENV
+        value: production
+      - key: STRUCTR_OUTPUT_DIR
+        value: /app/output
+      - key: STRUCTR_INPUT_DIR
+        value: /app/input
+      - key: STRUCTR_LLM_MODEL
+        value: mistral
+    disk:
+      name: structr-data
+      mountPath: /app/data
+      sizeGB: 10
+
+  # Optional: Redis service for production
+  - type: redis
+    name: structr-redis
+    plan: starter
+    maxmemoryPolicy: allkeys-lru

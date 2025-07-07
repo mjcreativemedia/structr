@@ -1,0 +1,33 @@
+{
+  "handle": "wireless-noise-cancelling-headphones",
+  "title": "ProSound Wireless Bluetooth Headphones with Active Noise Cancellation",
+  "description": "Experience crystal-clear audio with industry-leading noise cancellation technology. 30-hour battery life, premium comfort design, and instant pairing make these headphones perfect for work, travel, and entertainment.",
+  "price": 249.99,
+  "brand": "ProSound Audio",
+  "category": "Electronics > Audio > Headphones",
+  "images": [
+    "https://example.com/images/headphones-main.jpg",
+    "https://example.com/images/headphones-wearing.jpg",
+    "https://example.com/images/headphones-case.jpg"
+  ],
+  "features": [
+    "Active noise cancellation technology",
+    "30-hour battery life with ANC on",
+    "Bluetooth 5.2 connectivity",
+    "Quick charge: 15 min = 3 hours playback",
+    "Premium memory foam ear cushions",
+    "Built-in microphone for calls"
+  ],
+  "metafields": {
+    "battery_life": "30 hours with ANC",
+    "connectivity": "Bluetooth 5.2, 3.5mm wired",
+    "weight": "0.8",
+    "weight_unit": "LB",
+    "color": "Midnight Black",
+    "warranty": "2 years international",
+    "gtin": "2345678901234",
+    "mpn": "PS-ANC-250",
+    "rating": 4.6,
+    "review_count": 89
+  }
+}

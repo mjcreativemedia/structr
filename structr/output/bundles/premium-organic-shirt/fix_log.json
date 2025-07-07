@@ -1,0 +1,31 @@
+[
+  {
+    "timestamp": 1751841315.2987466,
+    "product_id": "premium-organic-shirt",
+    "issues_fixed": {
+      "missing_fields": [
+        "meta_description",
+        "og:title",
+        "og:description",
+        "og:image",
+        "json_ld_schema"
+      ],
+      "flagged_issues": [
+        "Title too short (< 30 chars)"
+      ],
+      "schema_errors": [
+        "Missing JSON-LD schema markup"
+      ],
+      "metadata_issues": [
+        "Missing meta description",
+        "Missing og:title",
+        "Missing og:description",
+        "Missing og:image"
+      ]
+    },
+    "original_score": 36.36,
+    "new_score": 36.36,
+    "fix_time": 0.0012819766998291016,
+    "model_used": "mistral"
+  }
+]

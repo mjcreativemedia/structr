@@ -1,0 +1,40 @@
+{
+  "input": {
+    "handle": "premium-organic-shirt",
+    "title": "Premium Organic Cotton T-Shirt",
+    "description": "Luxuriously soft organic cotton t-shirt made from 100% GOTS certified organic cotton. Perfect for everyday wear with a classic fit that flatters every body type. Machine washable and built to last.",
+    "price": 89.99,
+    "brand": "EcoWear Premium",
+    "category": "Clothing > Shirts > T-Shirts",
+    "images": [
+      "https://example.com/images/organic-shirt-front.jpg",
+      "https://example.com/images/organic-shirt-back.jpg"
+    ],
+    "features": [
+      "100% GOTS certified organic cotton",
+      "Machine washable cold water",
+      "Classic fit design",
+      "Pre-shrunk fabric",
+      "Available in 8 colors"
+    ],
+    "metafields": {
+      "material": "100% Organic Cotton",
+      "care_instructions": "Machine wash cold, tumble dry low",
+      "sustainability_info": "GOTS certified, carbon neutral shipping",
+      "gtin": "1234567890123",
+      "mpn": "ECO-SHIRT-001",
+      "weight": "0.5",
+      "weight_unit": "LB",
+      "color": "Navy Blue",
+      "size": "Large",
+      "rating": 4.8,
+      "review_count": 156
+    }
+  },
+  "output": {
+    "bundle_path": "output/bundles/premium-organic-shirt",
+    "generation_time": 0.0018208026885986328,
+    "model_used": "mistral",
+    "timestamp": "2025-07-06T22:35:14.189728"
+  }
+}

@@ -1,0 +1,109 @@
+[
+  {
+    "handle": "organic-cotton-shirt",
+    "title": "Premium Organic Cotton Shirt",
+    "description": "Luxuriously soft organic cotton shirt crafted with sustainable materials. Perfect for both casual and professional settings with a classic fit that flatters every body type.",
+    "price": 89.99,
+    "brand": "EcoWear",
+    "category": "Clothing > Shirts > Casual",
+    "images": [
+      "https://example.com/images/cotton-shirt-front.jpg",
+      "https://example.com/images/cotton-shirt-back.jpg",
+      "https://example.com/images/cotton-shirt-detail.jpg"
+    ],
+    "features": [
+      "100% GOTS certified organic cotton",
+      "Machine washable",
+      "Classic fit",
+      "Available in 5 colors",
+      "Sustainably sourced"
+    ],
+    "metafields": {
+      "material": "Organic Cotton",
+      "care_instructions": "Machine wash cold, tumble dry low",
+      "sustainability_info": "GOTS certified organic cotton",
+      "gtin": "1234567890123",
+      "mpn": "ECO-SHIRT-001",
+      "weight": "0.6",
+      "weight_unit": "LB",
+      "color": "Navy Blue",
+      "size": "Large",
+      "rating": 4.7,
+      "review_count": 42
+    }
+  },
+  {
+    "handle": "wireless-bluetooth-headphones",
+    "title": "ProSound Wireless Bluetooth Headphones",
+    "description": "Experience premium audio quality with active noise cancellation, 30-hour battery life, and crystal-clear calls. Perfect for work, travel, and entertainment.",
+    "price": 149.99,
+    "brand": "ProSound",
+    "category": "Electronics > Audio > Headphones",
+    "images": [
+      "https://example.com/images/headphones-main.jpg",
+      "https://example.com/images/headphones-side.jpg"
+    ],
+    "features": [
+      "Active noise cancellation",
+      "30-hour battery life",
+      "Bluetooth 5.0 connectivity",
+      "Quick charge: 15 min = 3 hours playback",
+      "Foldable design for travel"
+    ],
+    "metafields": {
+      "battery_life": "30 hours",
+      "connectivity": "Bluetooth 5.0",
+      "weight": "0.8",
+      "weight_unit": "LB",
+      "color": "Matte Black",
+      "warranty": "2 years",
+      "gtin": "2345678901234",
+      "mpn": "PS-BT-150",
+      "rating": 4.5,
+      "review_count": 128
+    }
+  },
+  {
+    "handle": "artisan-coffee-beans",
+    "title": "Single Origin Ethiopian Coffee Beans",
+    "description": "Hand-picked premium coffee beans from the highlands of Ethiopia. Medium roast with notes of chocolate, citrus, and floral undertones. Freshly roasted to order.",
+    "price": 24.99,
+    "brand": "Mountain Peak Coffee",
+    "category": "Food & Beverage > Coffee > Whole Bean",
+    "images": [
+      "https://example.com/images/coffee-bag.jpg",
+      "https://example.com/images/coffee-beans.jpg"
+    ],
+    "features": [
+      "Single origin Ethiopian beans",
+      "Medium roast profile",
+      "Freshly roasted to order",
+      "Fair trade certified",
+      "Resealable bag for freshness"
+    ],
+    "metafields": {
+      "origin": "Sidamo, Ethiopia",
+      "roast_level": "Medium",
+      "processing_method": "Washed",
+      "altitude": "1800-2000m",
+      "flavor_notes": "Chocolate, citrus, floral",
+      "weight": "1",
+      "weight_unit": "LB",
+      "gtin": "3456789012345",
+      "mpn": "MPC-ETH-001",
+      "certifications": "Fair Trade, Organic",
+      "rating": 4.8,
+      "review_count": 67
+    }
+  },
+  {
+    "handle": "minimalist-problem-product",
+    "title": "Bad Product",
+    "description": "Short desc",
+    "price": 9.99,
+    "metafields": {
+      "rating": 2.1,
+      "review_count": 3
+    }
+  }
+]

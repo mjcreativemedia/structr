@@ -1,0 +1,41 @@
+{
+  "input": {
+    "handle": "artisan-coffee-colombia",
+    "title": "Colombian Single Origin Coffee Beans - Medium Roast",
+    "description": "Hand-picked premium coffee beans from the highlands of Colombia. Medium roast with notes of chocolate, caramel, and citrus. Freshly roasted to order for maximum flavor and aroma.",
+    "price": 24.99,
+    "brand": "Mountain Peak Coffee Co",
+    "category": "Food & Beverage > Coffee > Whole Bean",
+    "images": [
+      "https://example.com/images/coffee-bag.jpg",
+      "https://example.com/images/coffee-beans-close.jpg"
+    ],
+    "features": [
+      "Single origin Colombian beans",
+      "Medium roast profile",
+      "Freshly roasted to order",
+      "Fair trade and organic certified",
+      "Resealable valve bag for freshness"
+    ],
+    "metafields": {
+      "origin": "Huila, Colombia",
+      "roast_level": "Medium",
+      "processing_method": "Washed",
+      "altitude": "1600-1800m",
+      "flavor_notes": "Chocolate, caramel, bright citrus",
+      "certifications": "Fair Trade, USDA Organic",
+      "weight": "1",
+      "weight_unit": "LB",
+      "gtin": "3456789012345",
+      "mpn": "MPC-COL-001",
+      "rating": 4.9,
+      "review_count": 203
+    }
+  },
+  "output": {
+    "bundle_path": "output/bundles/artisan-coffee-colombia",
+    "generation_time": 0.0018169879913330078,
+    "model_used": "mistral",
+    "timestamp": "2025-07-06T22:35:13.380505"
+  }
+}

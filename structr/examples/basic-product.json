@@ -1,0 +1,10 @@
+{
+  "handle": "basic-product",
+  "title": "Basic Product",
+  "description": "A basic product for testing.",
+  "price": 19.99,
+  "metafields": {
+    "rating": 3.2,
+    "review_count": 5
+  }
+}

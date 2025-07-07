@@ -1,0 +1,33 @@
+{
+  "bundle_id": "incomplete-product",
+  "timestamp": "2024-07-07T16:56:00Z",
+  "score": 45,
+  "status": "poor",
+  "missing_fields": [
+    "sku",
+    "image",
+    "offers.priceCurrency",
+    "offers.availability"
+  ],
+  "flagged_issues": [
+    "Missing required SKU field",
+    "No product images provided",
+    "Incomplete offers information",
+    "No GTIN or product identifiers"
+  ],
+  "schema_errors": [
+    "offers.priceCurrency is required",
+    "offers.availability is required"
+  ],
+  "metadata_issues": [
+    "Product description too short",
+    "No brand information in structured format"
+  ],
+  "recommendations": [
+    "Add product SKU for inventory tracking",
+    "Include high-quality product images",
+    "Complete offers with currency and availability",
+    "Add GTIN/UPC for product identification",
+    "Expand product description"
+  ]
+}

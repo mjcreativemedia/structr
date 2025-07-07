@@ -1,0 +1,18 @@
+{
+  "input": {
+    "handle": "basic-product",
+    "title": "Basic Product",
+    "description": "A basic product for testing.",
+    "price": 19.99,
+    "metafields": {
+      "rating": 3.2,
+      "review_count": 5
+    }
+  },
+  "output": {
+    "bundle_path": "output/bundles/basic-product",
+    "generation_time": 0.0018916130065917969,
+    "model_used": "mistral",
+    "timestamp": "2025-07-06T22:35:11.764646"
+  }
+}

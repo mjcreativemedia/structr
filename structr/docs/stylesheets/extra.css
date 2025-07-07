@@ -1,0 +1,129 @@
+/* Structr Documentation Custom Styles */
+
+/* Brand colors and variables */
+:root {
+  --structr-primary: #2563eb;
+  --structr-accent: #1d4ed8;
+  --structr-success: #059669;
+  --structr-warning: #d97706;
+  --structr-error: #dc2626;
+}
+
+/* Enhanced code blocks */
+.highlight pre {
+  border-radius: 8px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Custom admonition styles for Structr */
+.md-typeset .admonition.structr {
+  border-left: 4px solid var(--structr-primary);
+}
+
+.md-typeset .admonition.structr .admonition-title {
+  background-color: var(--structr-primary);
+}
+
+/* Enhanced tables */
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-weight: 600;
+}
+
+/* CLI command styling */
+.cli-command {
+  background: var(--md-code-bg-color);
+  border-left: 4px solid var(--structr-primary);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Feature badges */
+.feature-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background: var(--structr-success);
+  color: white;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 0.25rem;
+}
+
+.feature-badge.planned {
+  background: var(--structr-warning);
+}
+
+.feature-badge.later {
+  background: var(--md-default-fg-color--light);
+}
+
+/* Status indicators */
+.status-complete {
+  color: var(--structr-success);
+}
+
+.status-progress {
+  color: var(--structr-warning);
+}
+
+.status-planned {
+  color: var(--md-default-fg-color--light);
+}
+
+/* Enhanced navigation */
+.md-nav__title {
+  font-weight: 600;
+}
+
+/* Custom grid layout for feature comparisons */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.feature-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1rem;
+  background: var(--md-default-bg-color);
+}
+
+.feature-card h3 {
+  margin-top: 0;
+  color: var(--structr-primary);
+}
+
+/* File tree styling */
+.file-tree {
+  font-family: var(--md-code-font);
+  background: var(--md-code-bg-color);
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--structr-primary);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 76.1875em) {
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] {
+  .feature-card {
+    background: var(--md-default-bg-color);
+    border-color: var(--md-default-fg-color--lightest);
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "handle": "incomplete-product",
+  "title": "Incomplete Product Title That Is Way Too Long And Will Definitely Fail The SEO Title Length Check",
+  "description": "Short",
+  "price": 9.99,
+  "brand": "Poor Brand",
+  "metafields": {
+    "rating": 2.1,
+    "review_count": 2
+  }
+}

@@ -1,0 +1,106 @@
+site_name: Structr Documentation
+site_description: Local-first PDP optimization engine for eCommerce
+site_author: Structr Team
+site_url: https://structr.dev
+
+# Repository
+repo_name: structr/structr
+repo_url: https://github.com/structr/structr
+edit_uri: edit/main/docs/
+
+# Theme
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  icon:
+    repo: fontawesome/brands/github
+
+# Plugins
+plugins:
+  - search
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - tables
+  - toc:
+      permalink: true
+
+# Navigation
+nav:
+  - Overview: index.md
+  - Getting Started:
+    - Quickstart: quickstart.md
+    - CLI Commands: cli-commands.md
+  - User Guide:
+    - Dashboard Usage: dashboard-usage.md
+    - Connectors Guide: connectors-guide.md
+  - Developer:
+    - API Reference: api-reference.md
+    - Developer Guide: developer-guide.md
+  - Help:
+    - FAQ: faq.md
+
+# Extra
+extra:
+  version:
+    provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/structr/structr
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/structr_dev
+
+extra_css:
+  - stylesheets/extra.css
+
+# Copyright
+copyright: Copyright &copy; 2025 Structr Team

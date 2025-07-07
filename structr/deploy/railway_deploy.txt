@@ -1,0 +1,46 @@
+#!/bin/bash
+# Railway Deployment Script for Structr Dashboard
+
+set -e
+
+echo "🚀 Deploying Structr Dashboard to Railway..."
+
+# Check if Railway CLI is installed
+if ! command -v railway &> /dev/null; then
+    echo "❌ Railway CLI not found. Installing..."
+    npm install -g @railway/cli
+fi
+
+# Login to Railway (if not already logged in)
+echo "🔐 Checking Railway authentication..."
+if ! railway whoami &> /dev/null; then
+    echo "Please log in to Railway:"
+    railway login
+fi
+
+# Initialize Railway project (if not already initialized)
+if [ ! -f "railway.toml" ]; then
+    echo "📝 Initializing Railway project..."
+    railway init
+fi
+
+# Set environment variables
+echo "⚙️ Setting environment variables..."
+railway variables set PYTHONPATH=/app
+railway variables set STREAMLIT_SERVER_PORT=8501
+railway variables set STREAMLIT_SERVER_ADDRESS=0.0.0.0
+railway variables set STREAMLIT_SERVER_HEADLESS=true
+railway variables set STREAMLIT_BROWSER_GATHER_USAGE_STATS=false
+railway variables set STRUCTR_ENV=production
+railway variables set STRUCTR_OUTPUT_DIR=/app/output
+railway variables set STRUCTR_INPUT_DIR=/app/input
+railway variables set STRUCTR_LLM_MODEL=mistral
+
+# Deploy
+echo "🚀 Deploying to Railway..."
+railway up
+
+echo "✅ Deployment complete!"
+echo "📱 Your app will be available at the Railway-provided URL"
+echo "🔍 Check deployment status: railway status"
+echo "📋 View logs: railway logs"
